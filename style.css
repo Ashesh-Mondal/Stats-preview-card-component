@@ -12,3 +12,89 @@
 :root {
   font-size: 62.5%;
 }
+
+body {
+  font-size: 1.5rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(233, 47%, 7%);
+}
+
+.container {
+  display: flex;
+  width: 100rem;
+  border-radius: 2rem;
+}
+
+.container .right-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: hsl(244, 38%, 16%);
+  border-radius: 2rem 0 0 2rem;
+  width: 50%;
+}
+
+.right-container .content {
+  padding: 6rem;
+}
+
+.right-container .heading {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: hsl(0, 0%, 100%);
+  padding-bottom: 2rem;
+}
+
+.right-container .heading span {
+  color: hsl(277, 64%, 61%);
+}
+
+.right-container .main-content {
+  line-height: 2.5rem;
+  word-spacing: 0.2rem;
+  padding-bottom: 8rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.right-container .content .count {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.right-container .count-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+  font-family: "Inter", sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.right-container .count-title {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.container .left-container {
+  display: flex;
+  align-items: stretch;
+  width: 50%;
+}
+
+.left-container .layer {
+  width: 37.6%;
+  height: 56.7%;
+  background-color: hsla(277, 72%, 28%, 0.615);
+  position: absolute;
+  border-radius: 0 2rem 2rem 0;
+  top: 17rem;
+}
+
+.left-container img {
+  border-radius: 0 2rem 2rem 0;
+}
